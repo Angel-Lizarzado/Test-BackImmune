@@ -6,10 +6,11 @@ export const passwd = process.env.DB_PASSWORD;
 export const db = process.env.DB_NAME;
 export const secret = process.env.JWT_SECRET;
 export const firebaseConfig = {
-    apiKey: process.env.FIREBASE_API_KEY,
-    authDomain: 'only-films-cbeb4.firebaseapp.com',
-    projectId: 'only-films-cbeb4',
-    storageBucket: 'only-films-cbeb4.appspot.com',
-    messagingSenderId: '1086374942699',
-    appId: '1:1086374942699:web:f2ce083306c586e5fe2bae',
-};
+    apiKey: "AIzaSyBKhgGnNHeMlWisVCZOS8TDPPNO-jszEYY",
+    authDomain: "backend-moduleimmune.firebaseapp.com",
+    projectId: "backend-moduleimmune",
+    storageBucket: "backend-moduleimmune.appspot.com",
+    messagingSenderId: "107443281283",
+    appId: "1:107443281283:web:05a3bb304e8b3333ebaab6",
+    measurementId: "G-X85CXZYSQV"
+  };
